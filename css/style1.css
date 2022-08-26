@@ -1,0 +1,245 @@
+body {
+  background-color: gray;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../Montserrat/Montserrat-Regular.ttf);
+}
+header {
+  padding: 20px;
+}
+header .row ul {
+  float: right;
+}
+header .row ul li {
+  display: inline-block;
+  margin: 30px 26px;
+}
+header .row ul li a {
+  font-family: "Montserrat";
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+}
+header .row ul li a:hover {
+  color: #ED8435;
+}
+header img {
+  width: 250px;
+}
+header .p1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  color: #000000;
+}
+header .p2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+}
+header .banner {
+  background: url(../images/interior-g907cea68c_1920\ 1.png) top center/cover no-repeat;
+  background-size: contain;
+  height: 300px;
+}
+header .banner .row {
+  padding: 6%;
+}
+header .banner .row .p3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+header .banner .row .p4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.content .p5 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-left: 3%;
+}
+.content .row img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 300px;
+}
+.content .row .wrap {
+  position: relative;
+}
+.content .row .wrap .text1 {
+  color: whitesmoke;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-size: 25px;
+  bottom: 31px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+
+.contact {
+  background: url(../images/plv.png) top center/cover no-repeat;
+  background-size: contain;
+  height: 495px;
+  padding-top: 25px;
+}
+.contact .title {
+  text-align: center;
+  margin-right: 5%;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+.contact img {
+  width: 450px;
+  height: 300px;
+}
+.contact .p6 {
+  padding: 2%;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.contact .p7 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.contact .p8 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.contact input {
+  margin-top: 2%;
+  width: 340px;
+  background: #FFFDFD;
+  border-radius: 6px;
+}
+.contact .ip {
+  height: 70px;
+}
+.contact button {
+  margin-top: 3%;
+  background-color: #ED8435;
+  width: 150px;
+  border-radius: 6px;
+}
+.contact button a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.footer {
+  background: url(../images/footer.png) top center/cover no-repeat;
+  background-size: contain;
+  height: 490px;
+}
+.footer .row img {
+  width: 250px;
+  height: 100px;
+  margin-top: 14%;
+}
+.footer h6 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 12%;
+}
+.footer .p9 {
+  text-align: center;
+  margin-top: 25%;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px;
+}
+.footer .p10 {
+  text-align: center;
+  padding: 10px;
+  margin-top: 25%;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footer .p11 {
+  text-align: center;
+  margin-top: 30%;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footer .p12 {
+  text-align: center;
+  margin: 5%;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 38px;
+}
+.footer .p13 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 22%;
+}
+.footer .p14 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footer p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 8px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 25%;
+}/*# sourceMappingURL=style1.css.map */
